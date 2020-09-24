@@ -238,7 +238,7 @@ function check_bb_collision(existing_locs, new_loc, size, padding){
   if(existing_locs.length == 0){
     return false;
   }
-
+ 
   for(var i=0; i<existing_locs.length; i++){
     var x_min = existing_locs[i].x - size - padding;
     var x_max = existing_locs[i].x + size + padding;
